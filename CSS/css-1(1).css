@@ -1,0 +1,17 @@
+p{
+    background-color: aquamarine;
+    border-style: ridge;
+}
+.b{
+    text-align: center;
+}
+.c{
+    text-align: right;
+}
+.d{
+    text-align: justify;
+}
+.e{
+    text-align: justify;
+    text-align-last:center ;
+}

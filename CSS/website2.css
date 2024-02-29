@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #212529;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 0;
+}
+img{
+    width: 50%;
+    padding-top: 30px;
+}
+
+
+nav{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    color: #fff;
+    line-height: 100px;
+
+}
+li{
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#first{
+    width: 100%;
+    height: 950px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+h1.h{
+    text-align: center;
+    padding-top: 320px;
+    font-size: 60px;
+    margin-top: auto;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+h1.h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    margin-top: auto;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 0;
+}
+.second{
+    text-align: center;
+    padding-top: 100px;
+}
+.a1{
+    border: 2px solid;
+    color: #fff;
+    background-color:rgb(213, 213, 18);
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+    text-decoration: none;
+    padding: 25px;
+    width: 20%;
+}
+.a1:hover{
+    background-color: rgb(139, 139, 16);
+}
+#second{
+    width: 100%;
+    height: 800px;
+}
+.h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-style: italic;
+}
+.h3{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(167, 164, 164);
+    font-style: italic;
+}
+
+.four{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    margin-left:180px ;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.five{
+    border: 2px solid transparent;
+    width: 15%;
+    height: 200px;
+    background-color: rgb(205, 205, 14);
+    border-radius: 50%;
+}
+i{
+    font-size: 80px;
+    padding-top: 60px;
+    color: #fff;
+}
+h3{
+    padding-top: 70px;
+    font-size: 30px;
+}
+.font{
+    font-size: 15px;
+    padding-top: 50px;
+}
+#third{
+    width: 100%;
+    height: 1500px;
+    background-color: whitesmoke;
+}
+.h4{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-style: italic;
+}
+.h5{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(167, 164, 164);
+    font-style: italic;
+}
+.bir{
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.iki{
+    width: 30%;
+    height: 420px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.plus{
+    position: absolute;
+    width: 100%;
+    height: 320px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    justify-content: center;
+    color: white;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.iki:hover .plus{
+    opacity: 0.9;
+    background-color: orange;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+    margin-bottom:j ;
+}
+.h6{
+    text-align: center;
+    font-size: 40px;
+}
+.h7{
+    text-align: center;
+    color: silver;
+    font-style: italic;
+}
+#four{
+    width: 100%;
+    height: 1000px;
+}
+.div{
+    display: flex;
+    
+}
+.div1{
+    width: 40%;
+    height: 400px;
+    background-color: #212529;
+    display: flex;
+    justify-content: end;
+   
+}
+
+
+
+
+
+
+
+

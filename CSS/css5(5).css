@@ -1,0 +1,6 @@
+table, th, td {    
+    border-collapse: collapse; 
+  } 
+tr:nth-child(2n+2){
+    background-color: rgb(195, 192, 192);
+}

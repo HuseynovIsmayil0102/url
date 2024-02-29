@@ -1,0 +1,79 @@
+.bir{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+.iki{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+.f{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(8, 8, 92);
+}
+.f:nth-child(2){
+    background-color: rgb(85, 1, 1);
+}
+.f:nth-child(3){
+    background-color: rgb(5, 103, 5);
+}
+.uc{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.b{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(151, 149, 149);
+}
+.b:nth-child(2){
+    background-color: rgb(209, 117, 133);
+}
+.b:nth-child(3){
+    background-color: goldenrod;
+}
+.dord{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.a{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(3, 51, 3);
+}
+.a:nth-child(2){
+    background-color: orange;
+}
+.a:nth-child(3){
+    background-color: purple;
+}
+.bes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.c{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(8, 8, 92);
+}
+.c:nth-child(2){
+    background-color: rgb(85, 1, 1);
+}
+.c:nth-child(3){
+    background-color: rgb(3, 51, 3);
+}
+

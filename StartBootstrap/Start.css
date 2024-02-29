@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c{
+    width: 100%;
+    height: 900px;
+    background-image:url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg") ;
+    background-size: cover;
+    background-position: center center;
+
+}
+h1.h{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 100px;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+h1.j{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.c{
+    text-align: center;
+
+}
+button.url{
+    width:  10%;
+    height: 50px;
+    padding: 15px;
+    background-color:#1D809F;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+    text-decoration: none;
+    border-left-width: 200px;
+ }
+button.url:hover{
+    background-color: #196d87;
+}
+div.second{
+    box-sizing: border-box;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+h2.q{
+    text-align: center;
+    padding-top: 300px;
+   font-size: 100px;
+   margin-top: auto;
+   margin-bottom: 0;
+   font-size: 45px;
+}
+p.w{
+    text-align: center;
+    padding-bottom: 20px;
+    text-justify: auto;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+button.url1{
+    width: 12%;
+    height: 80px;
+    margin:0 auto;
+    margin-bottom: 100px;
+    padding: 15px;
+    background-color:#212529;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+}
+.url1:hover{
+    background-color: #424649;
+}
+.third{
+    box-sizing: border-box;
+    background-color: rgb(29, 128, 159);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 1px;
+}
+h3.a1{
+    color: rgb(206, 206, 26);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 100px;
+}
+h2.a2{
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 100px; 
+    padding-top: 0;
+    margin-top: 0;
+}
+.cover{
+    width: 100%;
+    height: 400px;
+    border: 1px transparent;
+    margin: 40px auto;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.cover:first-child{
+    position: relative;
+    margin-right: 100px;
+    margin-bottom: 100px
+
+}
+
+.cover div:nth-child(2){
+    position: relative;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+.cover div:nth-child(3){
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.cover div:nth-child(4){
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.cover div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid ;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.co{
+    color: #fff;
+    padding-top: 200px;
+}
+.re{
+    color: #fff;
+    padding-right: 65% ;
+    font-size: 25px;
+}
+.lo{
+    color:rgba(255, 255, 255, 0.7);
+    padding-right: 40px;
+    width: 130%;
+    height: 30px;
+
+
+}
+i{
+    font-size: 35px;
+    text-align: center ;
+    margin: auto;
+    color:rgb(29, 128, 159) ;
+    margin-top: 50px;
+}
+.red{
+    color:#fff;
+    padding-right: 30% ;
+    font-size: 25px;
+    padding: 0 50px;
+    
+}
+.four{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 0;
+}
+.Wel{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 85px;
+    margin-top: auto;
+    margin-bottom: 0;
+    max-width: 60%;
+    padding-left: 350px;
+    padding-bottom: 50px;
+} 
+button.Do{
+    width:  10%;
+    height: 50px;
+    padding: 15px;
+    background-color:#1D809F;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+    text-decoration: none;
+    border-left-width: 200px;
+}
+button.Do:hover{
+    background-color: #196d87; 
+}
+
+.five{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    transition: 0.5s;
+    clip-path: inset(0);
+    margin: 200px;
+}
+.six{
+    height: 400px;
+    width: 600px;
+    top: 0;
+}
+img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    margin: 200px;
+}
+.seven{
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 100px;
+    color: #fff;
+    font-size: 17px;
+    transition: 0.5s;
+    cursor: pointer;
+    top: 0;
+    margin: 200px;
+
+}
+.five:hover .seven{
+    background-color: rgba(29,128 ,159 ,0.7 )
+}
+.five:hover{
+    clip-path: inset(6%);
+}
+
