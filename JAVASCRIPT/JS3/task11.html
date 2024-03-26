@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = prompt("1-ci sözü daxil edin:");
+      var a1 = prompt("2-ci sözu daxil edin:");
+
+      function anagram(a, a1) {
+        if (a.length !== a1.length) {
+          return false;
+        }
+        return (
+          a.split("").sort().join("") === a1.split("").sort().join("")
+        );
+      }
+
+      anagram(a,a1);
+      if (anagram(a, a1)) {
+        alert("Sözlər anaqramdır.");
+      } else {
+        alert("Sözlər anaqram deyil.");
+      }
+    </script>
+  </body>
+</html>

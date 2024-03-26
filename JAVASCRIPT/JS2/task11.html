@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var a = [2, 4, 5]
+var b = [ 2, 4, 5]
+
+
+function compareArrays(a, b) {
+    if(a.length !== b.length) {
+        return "Elementin sayi fərqlidir."
+    }
+    for(let i = 0; i < a.length; i++) {
+        if(a[i] !== b[i]) {
+            return "Elementlər fərqlidir."
+        }
+    }
+    return "Array-lər bərabərdir."
+}
+
+console.log(compareArrays(a, b))
+    </script>
+</body>
+</html>

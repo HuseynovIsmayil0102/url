@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = Number(prompt("Ədəd daxil edin"));
+      var b = 0;
+      for (i = 0; i < a; i++) {
+        if (a % i == 0) {
+          b += i;
+        }
+      }
+
+      if (a == b) {
+        alert("Ədəd mükəmməldir.");
+      } else {
+        alert("Ədəd mükəmməl deyil.");
+      }
+    </script>
+  </body>
+</html>

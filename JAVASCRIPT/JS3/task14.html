@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = prompt("Uzunluğu daxil edin:");
+      var b = "a,b,c,d,e,q,w,r,t,y,u,i,o,p,g,h,j,k,l,2,3,4,5,6,7,8,9,0,1,Q,W,E,R,T,Y,U,I,O,P,S,F,G,J";
+      var c = "";
+
+      for (var i = 0; i < a; i++) {
+        var index = Math.floor(Math.random() * b.length);
+        c += b.charAt(index);
+      }
+      alert(c);
+    </script>
+  </body>
+</html>
