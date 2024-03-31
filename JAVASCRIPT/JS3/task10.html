@@ -7,16 +7,17 @@
   </head>
   <body>
     <script>
-      var a= Number(prompt("Ədəd daxil edin:"));
-
-      function b(a) {
-    
-        var c = a.toString();    
-        var d = c.length;
-        var e = Math.floor(d / 2);
-        for (var i = 0; i < e; i++) {
-          }
+      var a=Number(prompt("eded daxil edin")) 
+      for(i=1; i<a.length ;i++){
+        if(a[i]==a[a.length-1-i] ){
+          console.log("palindromdur")
+        }else{
+          console.log("palindrom deyil")
+        }
       }
+      console.log(a[i])
+
     </script>
+     
   </body>
 </html>

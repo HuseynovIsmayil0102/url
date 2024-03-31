@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        var telebe = {
+            telebe1: {
+                ad: "Samir",
+                netice: true
+            },
+            telebe2: {
+                ad: "Sahil",
+                netice: false
+            },
+            telebe3: {
+                ad: "Merve",
+                netice: true
+            },
+            telebe4: {
+                ad: "Ceyhun",
+                netice: false
+            },
+            telebe5: {
+                ad: "Mustafa",
+                netice: true
+            }
+        }
+        
+        function telebelerNetice(telebe) {
+            return Object.keys(telebe).filter((key) => telebe[key].netice)
+        }
+        
+        console.log(telebelerNetice(telebe))
+    </script>
+  </body>
+</html>
